@@ -9,42 +9,7 @@
       "_postman_id": "4da8deaa-9f92-462b-8b4f-65b0bd835b0c",
       "name": "POST",
       "description": "",
-      "item": [
-        {
-          "_postman_id": "f043274b-1c05-470c-b6bc-e0ef1c62d895",
-          "name": "RegisterUser",
-          "request": {
-            "auth": {
-              "type": "bearer",
-              "bearer": {
-                "token": "QpwL5tke4Pnpja7X"
-              }
-            },
-            "method": "POST",
-            "header": [
-              {
-                "key": "Content-Type",
-                "value": "application/x-www-form-urlencoded"
-              },
-              {
-                "key": "token",
-                "value": "QpwL5tke4Pnpja7X",
-                "disabled": true
-              },
-              {
-                "key": "Authorization",
-                "value": "QpwL5tke4Pnpja7X"
-              }
-            ],
-            "body": {
-              "mode": "raw",
-              "raw": "{\n    \"email\": \"sydney@fife\",\n    \"password\": \"pistol\"\n    \"token\": \"QpwL5tke4Pnpja7X\"\n}"
-            },
-            "url": "https://reqres.in/api/register"
-          },
-          "response": []
-        }
-      ]
+      "item": []
     },
     {
       "_postman_id": "4d81271d-ac59-4170-a3a5-8279ed7cbfc9",
