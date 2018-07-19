@@ -30,7 +30,7 @@
         "method": "GET",
         "header": [],
         "body": {},
-        "url": ""
+        "url": "https://reqres.in/api/users/2"
       },
       "response": []
     }
