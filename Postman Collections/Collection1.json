@@ -9,7 +9,19 @@
       "_postman_id": "4da8deaa-9f92-462b-8b4f-65b0bd835b0c",
       "name": "POST",
       "description": "",
-      "item": []
+      "item": [
+        {
+          "_postman_id": "146ac8db-a438-4405-a159-96698dac09fe",
+          "name": "RegisterUser",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "body": {},
+            "url": ""
+          },
+          "response": []
+        }
+      ]
     },
     {
       "_postman_id": "4d81271d-ac59-4170-a3a5-8279ed7cbfc9",
