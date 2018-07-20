@@ -13,6 +13,20 @@
         {
           "_postman_id": "caf0fa6a-e7b2-427d-9fc9-aac0f3765309",
           "name": "RegisterUser",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "37d90be3-2282-4db5-9743-415b9e993cc0",
+                "type": "text/javascript",
+                "exec": [
+                  "tests[\"Contains email\"] = responseBody.has(data.email);",
+                  "",
+                  "tests[\"Contains password\"] = responseBody.has(data.[password]);"
+                ]
+              }
+            }
+          ],
           "request": {
             "method": "POST",
             "header": [
