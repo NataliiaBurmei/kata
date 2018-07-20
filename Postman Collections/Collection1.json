@@ -17,12 +17,12 @@
             {
               "listen": "test",
               "script": {
-                "id": "37d90be3-2282-4db5-9743-415b9e993cc0",
+                "id": "8cce17a3-b86e-499a-8951-d03c3cdf4126",
                 "type": "text/javascript",
                 "exec": [
                   "tests[\"Contains email\"] = responseBody.has(data.email);",
                   "",
-                  "tests[\"Contains password\"] = responseBody.has(data.[password]);"
+                  "tests[\"Contains password\"] = responseBody.has(data[\"password\"]);"
                 ]
               }
             }
